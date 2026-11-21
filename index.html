@@ -12,13 +12,17 @@
 <section id="homeView">
 <div class="between section"><div><small class="eyebrow">ROTINA</small><h2>Plano de hoje</h2></div><button class="textbtn" data-view="plan">Ver semana ↗</button></div>
 <div id="todayTasks" class="tasklist"></div>
-<div class="between section"><div><small class="eyebrow">FOCO</small><h2>Timer de estudos</h2></div><span class="pill">50 + 10 min</span></div>
-<section class="panel timer-card"><div class="timer-mode" id="timerMode">FOCO • 50 MINUTOS</div><div class="timer" id="timerDisplay">50:00</div><div class="timer-sub" id="timerHint">Um bloco de cada vez.</div><div class="timer-actions"><button class="primary" id="timerStart">Iniciar foco</button><button class="secondary" id="timerReset">Reiniciar</button></div><button class="switch-mode" id="switchMode">Trocar para pausa de 10 min</button></section>
+<section class="panel launch-card"><div><small class="eyebrow">PRÓXIMA SESSÃO</small><b>50 minutos de foco + 10 de pausa</b><p>Use o cronômetro para acompanhar seu bloco atual.</p></div><button class="primary" data-view="timer">Abrir timer</button></section>
 </section>
 <section id="planView" class="hidden">
 <div class="section"><small class="eyebrow">18 HORAS / SEMANA</small><h2>Seu calendário semanal</h2><p class="muted">Três blocos de 50 minutos por dia, de segunda a sábado.</p></div>
 <div id="weekPlan" class="weekplan"></div>
 <div class="note panel"><b>Como usar</b><p>Abra o timer para iniciar um bloco. Ao terminar, marque a atividade como concluída. Seus registros ficam salvos neste aparelho.</p></div>
+</section>
+<section id="timerView" class="hidden">
+<div class="section"><small class="eyebrow">MODO DE CONCENTRAÇÃO</small><h2>Timer de estudos</h2><p class="muted">Um bloco de cada vez. Ao concluir, o tempo será registrado.</p></div>
+<section class="panel timer-card"><div class="timer-mode" id="timerMode">FOCO • 50 MINUTOS</div><div class="timer" id="timerDisplay">50:00</div><div class="timer-sub" id="timerHint">Um bloco de cada vez.</div><div class="timer-actions"><button class="primary" id="timerStart">Iniciar foco</button><button class="secondary" id="timerReset">Reiniciar</button></div><button class="switch-mode" id="switchMode">Trocar para pausa de 10 min</button></section>
+<div class="note panel"><b>Como funciona</b><p>Ao terminar os 50 minutos, o Study OS registra o tempo e oferece uma pausa de 10 minutos.</p></div>
 </section>
 <section id="statsView" class="hidden">
 <div class="section"><small class="eyebrow">ACOMPANHAMENTO</small><h2>Seu desempenho</h2></div>
